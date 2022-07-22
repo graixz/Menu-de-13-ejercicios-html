@@ -1,0 +1,45 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+body{
+    background: rgb(19, 197, 188);
+}
+header{
+    margin: auto;
+    width: 500px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+ul, ol{
+    list-style: none;
+}
+.nav li a{
+    background-color: aqua;
+    color: black;
+    text-decoration: none;
+    padding: 20px 20px;
+    display:block;
+}
+.nav li a:hover{
+    background-color: aquamarine;
+}
+.nav > li{
+    float: left;
+}
+.nav li ul{
+    display: none;
+    position: absolute;
+    min-width: 100px;
+}
+.nav li:hover > ul {
+    display: block;
+}
+.nav li ul li{
+    position: relative;
+}
+.nav li ul li ul{
+    right: 140px;
+    top: 0px;
+}
+
